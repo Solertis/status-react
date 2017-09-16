@@ -112,7 +112,7 @@
                    true)
                  false))))))
 
-;; NOTE: Android FFI not implemented yet
+;; NOTE: Android FFI not implemented yet.
 (defn notify [token on-result]
   (when status
     (call-module #(.notify status token on-result))))
